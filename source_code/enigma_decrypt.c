@@ -13,7 +13,7 @@ int main(){
 		}
 	}
 	//Cipher :
-	printf("Enter file name of message : ");
+	printf("Enter file name of cipher : ");
 	scanf("%s",cipher_file_name);
 	FILE * cipher_file = fopen(cipher_file_name, "rb");
 	if(cipher_file == NULL){
