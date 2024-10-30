@@ -58,3 +58,7 @@ If you never modified the rotors.txt, then the **NUMBER** will be 7, otherwise, 
 **It can easily change the number and kinds of rotors by a txt file.**
 
 **Every certain number of letters, the least frequently occurring letter is inserted, although this has a limited effect on balancing the frequency of each letter's appearance.**
+
+# Clone using the web URL
+
+https://github.com/BL2617/MyEnigmaMachine.git

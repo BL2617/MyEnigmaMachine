@@ -6,6 +6,9 @@ int main(){
 	char  rotors_file_name[20] = "rotors.txt", message_file_name[20], cipher_file_name[20];
 	int rotor_number, result;
 	char ** rotors = read_rotors(rotors_file_name, &rotor_number);
+	if(rotors == NULL){
+		return 1;
+	}
 	//convert rotors to offset but the first
 	for(int i = 0;i < rotor_number;i++){
 		for(int j = 0;j < LENGTH_ALPHABET;j++){

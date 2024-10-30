@@ -9,7 +9,7 @@ bool is_valid_rotors(char ** rotors, int rotor_number);
 char ** read_rotors(char * file_name, int * rotor_number){
 	FILE * file = fopen(file_name, "rb");
 	if(file == NULL){
-		perror("The file does not esist.");
+		perror("Rotors do not exist.");
 		fclose(file);
 		return NULL;
 	}
